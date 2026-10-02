@@ -36,10 +36,10 @@ PaperCore 帮助学生和研究者检查论文提出了什么主张、证据能�
 ## 界面预览
 
 <div align="center">
-<img src="assets/workspace-v2.jpg" alt="PaperCore 2.0 开发版工作区，展示四类任务，Web 搜索处于关闭状态" width="640" />
+<img src="assets/workspace-v2.jpg" alt="Google Chrome 中的 PaperCore 2.0 完整桌面工作区，Web 搜索处于关闭状态" width="1200" />
 </div>
 
-*截图来自空白本地工作区，不含上传论文、对话记录或密钥。当前展示的是中文界面，支持白色、暖色和黑色三种主题。*
+*使用 Google Chrome 截取完整桌面首页，包含侧栏和页尾。截图来自空白本地工作区，不含上传论文、对话记录或密钥。当前展示的是中文界面，支持白色、暖色和黑色三种主题。*
 
 ## 数据与连接服务
 

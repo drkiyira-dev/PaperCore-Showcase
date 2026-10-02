@@ -36,10 +36,10 @@ A narrower revision can be supported even when the original claim remains unreso
 ## Interface preview
 
 <div align="center">
-<img src="assets/workspace-v2.jpg" alt="PaperCore 2.0 development workspace with the four review tasks and Web search disabled" width="640" />
+<img src="assets/workspace-v2.jpg" alt="Complete PaperCore 2.0 desktop workspace, captured in Google Chrome with Web search disabled" width="1200" />
 </div>
 
-*The current development interface, captured with an empty local workspace. The UI shown is in Chinese. White, warm and dark themes are available; this screenshot contains no uploaded papers, conversations or credentials.*
+*The complete desktop homepage, captured in Google Chrome with an empty local workspace, including the sidebar and page footer. The UI shown is in Chinese. White, warm and dark themes are available; this screenshot contains no uploaded papers, conversations or credentials.*
 
 ## Data and connected services
 
