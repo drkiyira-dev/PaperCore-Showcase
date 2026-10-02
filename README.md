@@ -4,61 +4,66 @@
 
 # PaperCore
 
-**Find the core questions. Return to the paper.**
+**Read the paper. Check the evidence. Refine the claim.**
 
 English · [简体中文](README.zh-CN.md)
 
-Structured reading · Local-first · Source comparison
+Paper diagnosis · Logic review · Evidence verification · Defense preparation
 
 </div>
 
 ---
 
-## About PaperCore
+## A workspace for reading and questioning research
 
-PaperCore is a paper-reading assistant in development for students and researchers. It helps organize a paper's research questions, methods, experimental results, and conclusions so readers can check them against the original text.
+PaperCore helps students and researchers examine what a paper claims, what its evidence supports, and what needs further work. The 2.0 development version combines a continuing conversation with the original document and a traceable evidence review.
 
-The aim is to reduce repetitive information gathering and leave more time for understanding methods, assessing evidence, and developing ideas. Extracted results are reading aids and require review against the paper.
+Start with a paper or a question. Follow the citations back to the source. Use supported revisions to sharpen the argument, while keeping unresolved questions visible.
 
-## Current capabilities
+## Inside the current version
 
-| Reading task | Features in the development version |
+| Task | Implemented in the development version |
 |---|---|
-| Import documents | Parse PDF, DOCX, TXT, and Markdown; use local OCR for scanned documents |
-| Organize content | Present research questions, methods, experiments, and conclusions |
-| Check the source | View the original text alongside results |
-| Save and revisit | Browse analysis history, manage documents, and export Markdown or TXT reports |
-| Choose an analysis mode | Use local rules, with optional local models or cloud AI depending on configuration |
+| Read with context | PDF, DOCX, text, Markdown and image input; optional local OCR and configured vision models |
+| Question the argument | Four combinable directions: paper diagnosis, logic review, evidence verification and defense preparation |
+| Trace the evidence | Original text beside the conversation, paragraph citation links, source-reading records and evidence gaps |
+| Check a claim | Scope checks, supporting and contradicting evidence searches, source reading and explicit unresolved states |
+| Refine the wording | Copyable revisions checked for citations, numbers, units and calculations, followed by a model review of evidence relationships |
+| Continue the work | Conversation history, Markdown export, model handoff, configured-model recovery and elapsed time per turn |
 
-Local mode processes documents on the device running PaperCore. Cloud AI sends relevant content to the selected provider. Data handling depends on deployment and configuration.
+A narrower revision can be supported even when the original claim remains unresolved. Missing full text or a service error is not treated as evidence that a scientific claim is false. Automated checks assist human review; they do not establish scientific correctness.
 
 ## Interface preview
 
-![PaperCore's paper-analysis workspace in the development version](assets/workspace.png)
+<div align="center">
+<img src="assets/workspace-v2.jpg" alt="PaperCore 2.0 development workspace with the four review tasks and Web search disabled" width="640" />
+</div>
 
-*A development screenshot showing the interface and layout. Mode names, scores, and interface prompts are not accuracy or processing-speed guarantees.*
+*The current development interface, captured with an empty local workspace. The UI shown is in Chinese. White, warm and dark themes are available; this screenshot contains no uploaded papers, conversations or credentials.*
+
+## Data and connected services
+
+Documents, history and evidence records are stored locally. Analysis sends relevant text and images to the model providers configured by the user; eligible configured models may take over after a service failure. This is not a fully offline analysis mode.
+
+External literature search is off by default. When enabled, the app can use configured academic services including OpenAlex, Semantic Scholar, Crossref, arXiv, PMC, Unpaywall, Wanfang and VIP. Access depends on credentials, permissions and service availability. A search hit is not the same as having read the full paper.
 
 ## Development status
 
-PaperCore is undergoing development and internal validation. Document import, structured extraction, source comparison, history, and report export workflows are implemented. Current priorities are:
+**PaperCore 2.0 is an internal development preview.** Current work focuses on evidence coverage, claim boundaries, reliable source reading, revision checks and usability. Automated regression tests cover workflow behavior with fixtures and mocked services; they are not an overall accuracy measurement.
 
-- Checking whether extracted content is supported by the paper and improving source location.
-- Improving manual annotation and review before expanding evaluation.
-- Refining the reading experience through user feedback.
-
-A public online demo is not yet available. Its link will be added here when available. There is currently no public installation package.
+Formula-specific verification and CNKI integration are not implemented. There is currently no public hosted demo or public installation package. A demo link will be added when one is available.
 
 ## Project and feedback
 
-PaperCore is developed by **Zhu Houzhen (朱厚臻)**. This repository contains project information, screenshots, and development updates. The software source code is maintained in a private repository.
+PaperCore is developed by **Zhu Houzhen (朱厚臻)**. This repository contains project information and interface previews. The application source remains in a private repository.
 
-Feature suggestions and reading scenarios are welcome in [Issues](https://github.com/drkiyira-dev/PaperCore-Showcase/issues). Please do not include unpublished papers, account information, or API keys.
+Reading scenarios and feature suggestions are welcome in [Issues](https://github.com/drkiyira-dev/PaperCore-Showcase/issues). Please leave unpublished papers, account information and API keys out of public reports.
 
 ## Copyright
 
 Copyright © 2026 朱厚臻 (Zhu Houzhen). All rights reserved.
 
-PaperCore is proprietary software. Public display of this repository does not grant an open-source license to the software, original text, or images. See [LICENSE](LICENSE) for details.
+PaperCore is proprietary software. Public display of this repository does not grant an open-source license to the software, original text or images. See [LICENSE](LICENSE) for details.
 
 ---
 
