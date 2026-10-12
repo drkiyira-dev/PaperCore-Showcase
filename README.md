@@ -44,9 +44,9 @@ Local regional services now connect accounts to private research workspaces, usa
 
 ## Website preview
 
-<img src="assets/website-preview.png" alt="Full English PaperCore website design preview, including research, CoreLM and footer" width="1000" />
+<img src="assets/website-preview.png" alt="Complete current English PaperCore website, freshly captured in Google Chrome from navigation to footer" width="1000" />
 
-*Complete English website preview from the existing local design checks. Published here on October 12, 2026; it is not a screenshot of a publicly hosted service or a new browser capture from this repository update.*
+*Fresh full-page capture of the current English website, taken in Google Chrome on October 12, 2026 (1600 × 4125). It includes the navigation, research sections, CoreLM preview and complete footer. Captured from a local build; a public hosted service is not yet available.*
 
 ## Research workspace preview
 
@@ -54,7 +54,7 @@ Local regional services now connect accounts to private research workspaces, usa
 <img src="assets/workspace-v2.jpg" alt="Complete PaperCore 2.0 desktop workspace, captured in Google Chrome with Web search disabled" width="1200" />
 </div>
 
-*Workspace capture from October 8, 2026; retained as a dated interface reference. The latest conversation view has a more compact input area and a larger model-switch target. The complete desktop homepage, captured in Google Chrome with an empty local workspace, including the sidebar and page footer. The UI shown is in Chinese. White, warm and dark themes are available; this screenshot contains no uploaded papers, conversations or credentials.*
+*Fresh capture of the current desktop homepage, taken in Google Chrome on October 12, 2026 (1600 × 1100), including the sidebar and page footer. Captured in an empty local workspace with Web search disabled; no uploaded papers, conversations or credentials are shown. The interface shown is in Chinese. White, warm and dark themes are available.*
 
 ## Data and connected services
 
