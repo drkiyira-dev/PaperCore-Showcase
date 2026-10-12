@@ -44,7 +44,7 @@ PaperCore 帮助学生和研究者检查论文提出了什么主张、证据能�
 
 ## 官网预览
 
-网页设计部分借鉴了 Anthropic 官网。
+网页设计部分借鉴了 [Anthropic](https://www.anthropic.com/) 官网。
 
 <img src="assets/website-preview.png" alt="使用 Google Chrome 新截取的最新版英文官网，包含顶部导航至完整页尾" width="1000" />
 

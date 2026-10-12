@@ -44,7 +44,7 @@ Local regional services now connect accounts to private research workspaces, usa
 
 ## Website preview
 
-Parts of the website design draw inspiration from Anthropic’s website.
+Parts of the website design draw inspiration from [Anthropic](https://www.anthropic.com/)’s website.
 
 <img src="assets/website-preview.png" alt="Complete current English PaperCore website, freshly captured in Google Chrome from navigation to footer" width="1000" />
 
