@@ -32,17 +32,29 @@ Start with a paper or a question. Follow the citations back to the source. Use s
 | Retrieve relevant passages | Optional semantic and graph retrieval, with each selected passage checked against the current source document |
 | Continue the work | Saved research goals and open questions, model handoff, conversation rename/delete, Markdown export and elapsed time per turn |
 
-Follow-ups distinguish discussion, focused edits and new claims. Click the current model name to switch models; use **Add source text** to turn pasted paper text into citable material.
+Follow-ups distinguish discussion, focused edits and new claims. The conversation input grows from a compact single line; the larger homepage composer is preserved. Click the current model name to switch models; use **Add source text** to turn pasted paper text into citable material.
 
 A narrower revision can be supported even when the original claim remains unresolved. Missing full text or a service error is not treated as evidence that a scientific claim is false. Automated checks assist human review; they do not establish scientific correctness.
 
-## Interface preview
+## Website and regional workspaces
+
+The new website brings together Product, Research, CoreLM, About Us, Brand Showcase and plan information. Global and China have separate regional pages with English and Simplified Chinese content. CoreLM is a domain-model research initiative; no CoreLM model has been released.
+
+Local regional services now connect accounts to private research workspaces, usage records, explicit spending authorization and checkpoint recovery. These are development services, not a publicly available subscription product. **Checkout and real payments remain disabled.** Plan details and credit policies are still being completed; test credits do not represent purchased allowances.
+
+## Website preview
+
+<img src="assets/website-preview.png" alt="Full English PaperCore website design preview, including research, CoreLM and footer" width="1000" />
+
+*Complete English website preview from the existing local design checks. Published here on October 12, 2026; it is not a screenshot of a publicly hosted service or a new browser capture from this repository update.*
+
+## Research workspace preview
 
 <div align="center">
 <img src="assets/workspace-v2.jpg" alt="Complete PaperCore 2.0 desktop workspace, captured in Google Chrome with Web search disabled" width="1200" />
 </div>
 
-*Updated October 8, 2026. The complete desktop homepage, captured in Google Chrome with an empty local workspace, including the sidebar and page footer. The UI shown is in Chinese. White, warm and dark themes are available; this screenshot contains no uploaded papers, conversations or credentials.*
+*Workspace capture from October 8, 2026; retained as a dated interface reference. The latest conversation view has a more compact input area and a larger model-switch target. The complete desktop homepage, captured in Google Chrome with an empty local workspace, including the sidebar and page footer. The UI shown is in Chinese. White, warm and dark themes are available; this screenshot contains no uploaded papers, conversations or credentials.*
 
 ## Data and connected services
 
@@ -56,9 +68,9 @@ The Web toggle controls external paper search. It does **not** turn off cloud mo
 
 ## Development status
 
-**PaperCore 2.0 is an internal development preview.** The October 8 update strengthens evidence relationships, source-version checks, follow-up routing, model handoff and revision checks. Broader evaluation with independently annotated material remains in progress. Automated regression tests cover workflow behavior with fixtures and mocked services; they are not an overall accuracy measurement.
+**PaperCore 2.0 is an internal development preview.** The October 12 update brings together the new website, regional accounts and further corrections to claim/evidence alignment, diagnosis, citation handling and task recovery. Broader evaluation with independently annotated material remains in progress. Automated regression tests cover workflow behavior with fixtures and mocked services; they are not an overall accuracy measurement.
 
-Formula-specific verification and CNKI integration are not implemented. There is currently no public hosted demo or public installation package. A demo link will be added when one is available.
+Regional vision execution, broader real-paper evaluation, additional-provider handoff and production concurrency acceptance remain pending. Formula-specific verification and CNKI integration are not implemented. There is currently no public hosted demo or public installation package. A demo link will be added when one is available.
 
 ## Project and feedback
 
