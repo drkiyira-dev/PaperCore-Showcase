@@ -44,6 +44,8 @@ PaperCore 帮助学生和研究者检查论文提出了什么主张、证据能�
 
 ## 官网预览
 
+网页设计部分借鉴了 Anthropic 官网。
+
 <img src="assets/website-preview.png" alt="使用 Google Chrome 新截取的最新版英文官网，包含顶部导航至完整页尾" width="1000" />
 
 *2026 年 10 月 12 日使用 Google Chrome 重新截取的最新版英文官网完整长图（1600 × 4125），包含顶部导航、研究内容、CoreLM 预览及完整页尾。页面来自本地构建，目前尚未提供公开托管服务。*

@@ -44,6 +44,8 @@ Local regional services now connect accounts to private research workspaces, usa
 
 ## Website preview
 
+Parts of the website design draw inspiration from Anthropic’s website.
+
 <img src="assets/website-preview.png" alt="Complete current English PaperCore website, freshly captured in Google Chrome from navigation to footer" width="1000" />
 
 *Fresh full-page capture of the current English website, taken in Google Chrome on October 12, 2026 (1600 × 4125). It includes the navigation, research sections, CoreLM preview and complete footer. Captured from a local build; a public hosted service is not yet available.*
