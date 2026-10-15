@@ -42,6 +42,14 @@ The new website brings together Product, Research, CoreLM, About Us, Brand Showc
 
 Local regional services now connect accounts to private research workspaces, usage records, explicit spending authorization and checkpoint recovery. These are development services, not a publicly available subscription product. **Checkout and real payments remain disabled.** Plan details and credit policies are still being completed; test credits do not represent purchased allowances.
 
+## CoreLM research progress
+
+As of October 15, 2026, small-scale experiments are adapting Qwen3-8B for source-grounded condition and evidence review. This work studies how to distinguish a missing condition, a clearly supported condition and unresolved attribution. It is part of the CoreLM research initiative; no CoreLM model has been released or deployed in PaperCore.
+
+An initial 264-example training trial showed limited improvement but still failed to recognize uncertainty reliably. Separate prompt comparisons introduced incorrect clearances, so the proposed rules were not deployed. A new set of **396 synthetic training examples** is prepared, with **60 fixed development tasks and 12 regression tasks**; training on this expanded set has not started. The independent test set remains sealed.
+
+These are assistant-authored, author-reviewed exercises, not an independently validated real-paper benchmark. Software checks cover data integrity, resource limits and recovery; they do not establish research accuracy or production readiness. Training code, datasets and weights are not distributed through this Showcase.
+
 ## Website preview
 
 Parts of the website design draw inspiration from [Anthropic](https://www.anthropic.com/)’s website.
