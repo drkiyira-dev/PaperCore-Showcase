@@ -36,6 +36,8 @@ Follow-ups distinguish discussion, focused edits and new claims. The conversatio
 
 A narrower revision can be supported even when the original claim remains unresolved. Missing full text or a service error is not treated as evidence that a scientific claim is false. Automated checks assist human review; they do not establish scientific correctness.
 
+Recent work improves scanned and nested-chart reading, separates approximate visual measurements from exact values, and makes interrupted evidence reviews recoverable within bounded retries. Complex figures and failed provider calls can still leave a claim unresolved.
+
 ## Website and regional workspaces
 
 The new website brings together Product, Research, CoreLM, About Us, Brand Showcase and plan information. Global and China have separate regional pages with English and Simplified Chinese content. CoreLM is a domain-model research initiative; no CoreLM model has been released.
@@ -56,7 +58,7 @@ Parts of the website design draw inspiration from [Anthropic](https://www.anthro
 
 <img src="assets/website-preview.png" alt="Complete current English PaperCore website, freshly captured in Google Chrome from navigation to footer" width="1000" />
 
-*Fresh full-page capture of the current English website, taken in Google Chrome on October 12, 2026 (1600 × 4125). It includes the navigation, research sections, CoreLM preview and complete footer. Captured from a local build; a public hosted service is not yet available.*
+*Fresh full-page capture of the current English website, taken in Google Chrome on October 21, 2026 (1600 × 4125). It includes the navigation, research sections, CoreLM preview and complete footer. Captured from a local build; a public hosted service is not yet available.*
 
 ## Research workspace preview
 
@@ -64,7 +66,23 @@ Parts of the website design draw inspiration from [Anthropic](https://www.anthro
 <img src="assets/workspace-v2.jpg" alt="Complete PaperCore 2.0 desktop workspace, captured in Google Chrome with Web search disabled" width="1200" />
 </div>
 
-*Fresh capture of the current desktop homepage, taken in Google Chrome on October 12, 2026 (1600 × 1100), including the sidebar and page footer. Captured in an empty local workspace with Web search disabled; no uploaded papers, conversations or credentials are shown. The interface shown is in Chinese. White, warm and dark themes are available.*
+*Fresh capture of the current desktop homepage, taken in Google Chrome on October 21, 2026 (1600 × 1100), including the sidebar and page footer. Captured in an empty local workspace with Web search disabled; no uploaded papers, conversations or credentials are shown. The interface shown is in Chinese. White, warm and dark themes are available.*
+
+## Invited beta preview
+
+The separate China beta website now leads to invitation activation, a participant workspace and a document center. Terms, privacy, material permissions and applicable third-party service consent are recorded separately. Optional data-use permissions remain separate from participation. This is locally validated preparation; public registration and launch have not been approved.
+
+<img src="assets/beta-preview.png" alt="Complete local PaperCore China invited-beta homepage" width="1000" />
+
+*Full-page Google Chrome capture, October 21, 2026 (1600 × 4457). The preview contains no participant account or research data.*
+
+## Independent Chinese brand preview
+
+An independent website explores **砚衡 · PaperCore 中国版** (Yanheng) and the phrase “以文求知，以证立论。” This is a brand preview, separate from the current beta identity; it does not announce a launched service.
+
+<img src="assets/yanheng-preview.png" alt="Complete Yanheng Chinese brand website preview" width="1000" />
+
+*Full-page Google Chrome capture, October 21, 2026 (1600 × 4010), from an isolated local build.*
 
 ## Data and connected services
 
@@ -78,7 +96,7 @@ The Web toggle controls external paper search. It does **not** turn off cloud mo
 
 ## Development status
 
-**PaperCore 2.0 is an internal development preview.** The October 12 update brings together the new website, regional accounts and further corrections to claim/evidence alignment, diagnosis, citation handling and task recovery. Broader evaluation with independently annotated material remains in progress. Automated regression tests cover workflow behavior with fixtures and mocked services; they are not an overall accuracy measurement.
+**PaperCore 2.0 is an internal development preview.** The October 21 update brings together evidence and chart-reading corrections, recovery compatibility, the invited-beta interface and documentation, and an independent Chinese brand preview. Broader evaluation with independently annotated material remains in progress. Automated regression tests cover workflow behavior with fixtures and mocked services; they are not an overall accuracy measurement.
 
 Regional vision execution, broader real-paper evaluation, additional-provider handoff and production concurrency acceptance remain pending. Formula-specific verification and CNKI integration are not implemented. There is currently no public hosted demo or public installation package. A demo link will be added when one is available.
 
