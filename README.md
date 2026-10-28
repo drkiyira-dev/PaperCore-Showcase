@@ -36,7 +36,7 @@ Follow-ups distinguish discussion, focused edits and new claims. The conversatio
 
 A narrower revision can be supported even when the original claim remains unresolved. Missing full text or a service error is not treated as evidence that a scientific claim is false. Automated checks assist human review; they do not establish scientific correctness.
 
-Recent work improves scanned and nested-chart reading, separates approximate visual measurements from exact values, and makes interrupted evidence reviews recoverable within bounded retries. Complex figures and failed provider calls can still leave a claim unresolved.
+Recent work adds original PDF/image page viewing with navigation and zoom, source-bound table-cell checks, and geometry records for fractions, scripts and nested formulas. Literal location is kept separate from scientific support. Scanned tables, complex formula meaning and ambiguous source locations remain under validation; isolated successful provider requests do not establish general reliability or whole-paper speed.
 
 ## Website and regional workspaces
 
@@ -46,11 +46,11 @@ Local regional services now connect accounts to private research workspaces, usa
 
 ## CoreLM research progress
 
-As of October 15, 2026, small-scale experiments are adapting Qwen3-8B for source-grounded condition and evidence review. This work studies how to distinguish a missing condition, a clearly supported condition and unresolved attribution. It is part of the CoreLM research initiative; no CoreLM model has been released or deployed in PaperCore.
+The member has completed a 396-example synthetic training run based on Qwen3-8B. Review of saved answers found development performance improved from **26/60 to 44/60**, but the model also introduced **10 incorrect clearances**, and regression format/field compliance fell from **12/12 to 5/12**. It therefore **did not pass quality acceptance**. No CoreLM model has been released or deployed in PaperCore.
 
-An initial 264-example training trial showed limited improvement but still failed to recognize uncertainty reliably. Separate prompt comparisons introduced incorrect clearances, so the proposed rules were not deployed. A new set of **396 synthetic training examples** is prepared, with **60 fixed development tasks and 12 regression tasks**; training on this expanded set has not started. The independent test set remains sealed.
+The v1.4 member tools improve runtime accounting, evaluation scheduling and recovery; they do not add training examples or represent a new trained model. The next step is to audit the member-modified code and evaluate existing artifacts before deciding whether further training is justified. The independent test set remains sealed.
 
-These are assistant-authored, author-reviewed exercises, not an independently validated real-paper benchmark. Software checks cover data integrity, resource limits and recovery; they do not establish research accuracy or production readiness. Training code, datasets and weights are not distributed through this Showcase.
+These figures come from a historical review of member outputs, not a new evaluation or an independently validated real-paper benchmark. Training code, datasets, outputs and weights are not distributed through this Showcase.
 
 ## Website preview
 
@@ -58,7 +58,7 @@ Parts of the website design draw inspiration from [Anthropic](https://www.anthro
 
 <img src="assets/website-preview.png" alt="Complete current English PaperCore website, freshly captured in Google Chrome from navigation to footer" width="1000" />
 
-*Fresh full-page capture of the current English website, taken in Google Chrome on October 21, 2026 (1600 × 4125). It includes the navigation, research sections, CoreLM preview and complete footer. Captured from a local build; a public hosted service is not yet available.*
+*Fresh full-page capture of the current English website, taken in Google Chrome on October 28, 2026 (1600 × 4125). It includes the navigation, research sections, CoreLM preview and complete footer. Captured from a local build; a public hosted service is not yet available.*
 
 ## Research workspace preview
 
@@ -66,15 +66,15 @@ Parts of the website design draw inspiration from [Anthropic](https://www.anthro
 <img src="assets/workspace-v2.jpg" alt="Complete PaperCore 2.0 desktop workspace, captured in Google Chrome with Web search disabled" width="1200" />
 </div>
 
-*Fresh capture of the current desktop homepage, taken in Google Chrome on October 21, 2026 (1600 × 1100), including the sidebar and page footer. Captured in an empty local workspace with Web search disabled; no uploaded papers, conversations or credentials are shown. The interface shown is in Chinese. White, warm and dark themes are available.*
+*Fresh capture of the current desktop homepage, taken in Google Chrome on October 28, 2026 (1600 × 1100), including the sidebar and page footer. Captured in an empty local workspace with Web search disabled; no uploaded papers, conversations or credentials are shown. The interface shown is in Chinese. White, warm and dark themes are available.*
 
 ## Invited beta preview
 
-The separate China beta website now leads to invitation activation, a participant workspace and a document center. Terms, privacy, material permissions and applicable third-party service consent are recorded separately. Optional data-use permissions remain separate from participation. This is locally validated preparation; public registration and launch have not been approved.
+The separate China beta website now leads to invitation activation, a participant workspace and a document center. Terms, privacy, material permissions and applicable third-party service consent are recorded separately. Optional data-use permissions remain separate from participation. Beta execution now preserves original authorization and accumulated usage when resuming a task. Local causal-diagnosis acceptance remains incomplete, so participant-experience acceptance and public launch are still pending. The prior provider-review window has expired; this update does not extend it.
 
 <img src="assets/beta-preview.png" alt="Complete local PaperCore China invited-beta homepage" width="1000" />
 
-*Full-page Google Chrome capture, October 21, 2026 (1600 × 4457). The preview contains no participant account or research data.*
+*Full-page Google Chrome capture, October 28, 2026 (1600 × 4457). The preview contains no participant account or research data.*
 
 ## Independent Chinese brand preview
 
@@ -82,7 +82,7 @@ An independent website explores **砚衡 · PaperCore 中国版** (Yanheng) and 
 
 <img src="assets/yanheng-preview.png" alt="Complete Yanheng Chinese brand website preview" width="1000" />
 
-*Full-page Google Chrome capture, October 21, 2026 (1600 × 4010), from an isolated local build.*
+*Full-page Google Chrome capture, October 28, 2026 (1600 × 4010), from an isolated local build.*
 
 ## Data and connected services
 
@@ -96,7 +96,7 @@ The Web toggle controls external paper search. It does **not** turn off cloud mo
 
 ## Development status
 
-**PaperCore 2.0 is an internal development preview.** The October 21 update brings together evidence and chart-reading corrections, recovery compatibility, the invited-beta interface and documentation, and an independent Chinese brand preview. Broader evaluation with independently annotated material remains in progress. Automated regression tests cover workflow behavior with fixtures and mocked services; they are not an overall accuracy measurement.
+**PaperCore 2.0 is an internal development preview.** The October 28 update brings together source-page reading, table/formula alignment, vision recovery, beta execution and reconciliation, participant-document templates and corrected model-research progress. Broader evaluation with independently annotated material remains in progress. Automated regression tests cover workflow behavior with fixtures and mocked services; they are not an overall accuracy measurement.
 
 Regional vision execution, broader real-paper evaluation, additional-provider handoff and production concurrency acceptance remain pending. Formula-specific verification and CNKI integration are not implemented. There is currently no public hosted demo or public installation package. A demo link will be added when one is available.
 
