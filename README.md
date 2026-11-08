@@ -6,7 +6,7 @@
 
 **Read the paper. Check the evidence. Refine the claim.**
 
-English · [简体中文](README.zh-CN.md)
+English · [简体中文](README.zh-CN.md) · [한국어](readme-kr.md)
 
 Paper diagnosis · Logic review · Evidence verification · Defense preparation
 
@@ -36,7 +36,7 @@ Follow-ups distinguish discussion, focused edits and new claims. The conversatio
 
 A narrower revision can be supported even when the original claim remains unresolved. Missing full text or a service error is not treated as evidence that a scientific claim is false. Automated checks assist human review; they do not establish scientific correctness.
 
-Recent work adds original PDF/image page viewing with navigation and zoom, source-bound table-cell checks, and geometry records for fractions, scripts and nested formulas. Literal location is kept separate from scientific support. Scanned tables, complex formula meaning and ambiguous source locations remain under validation; isolated successful provider requests do not establish general reliability or whole-paper speed.
+Recent work adds structured source checks for complex headers, empty table cells and formula symbols. Swin retains 42 unresolved position/structure checks; exact location does not establish semantic correctness. The workspace offers 6 subject groups and 36 research directions. Material acquisition, machine review and human verification have separate states, and interrupted work retains its completed progress. Independent human evaluation remains pending.
 
 ## Website and regional workspaces
 
@@ -58,7 +58,7 @@ Parts of the website design draw inspiration from [Anthropic](https://www.anthro
 
 <img src="assets/website-preview.png" alt="Complete current English PaperCore website, freshly captured in Google Chrome from navigation to footer" width="1000" />
 
-*Fresh full-page capture of the current English website, taken in Google Chrome on October 28, 2026 (1600 × 4125). It includes the navigation, research sections, CoreLM preview and complete footer. Captured from a local build; a public hosted service is not yet available.*
+*Fresh full-page capture of the current English website, taken in Google Chrome on November 8, 2026 (1600 × 4125). It includes the navigation, research sections, CoreLM preview and complete footer. Captured from a local build; a public hosted service is not yet available.*
 
 ## Research workspace preview
 
@@ -66,15 +66,15 @@ Parts of the website design draw inspiration from [Anthropic](https://www.anthro
 <img src="assets/workspace-v2.jpg" alt="Complete PaperCore 2.0 desktop workspace, captured in Google Chrome with Web search disabled" width="1200" />
 </div>
 
-*Fresh capture of the current desktop homepage, taken in Google Chrome on October 28, 2026 (1600 × 1100), including the sidebar and page footer. Captured in an empty local workspace with Web search disabled; no uploaded papers, conversations or credentials are shown. The interface shown is in Chinese. White, warm and dark themes are available.*
+*Fresh capture of the current desktop homepage, taken in Google Chrome on November 8, 2026 (1600 × 1100), including the sidebar and page footer. Captured in an empty local workspace with Web search disabled; no uploaded papers, conversations or credentials are shown. The interface shown is in Chinese. White, warm and dark themes are available.*
 
 ## Invited beta preview
 
-The separate China beta website now leads to invitation activation, a participant workspace and a document center. Terms, privacy, material permissions and applicable third-party service consent are recorded separately. Optional data-use permissions remain separate from participation. Beta execution now preserves original authorization and accumulated usage when resuming a task. Local causal-diagnosis acceptance remains incomplete, so participant-experience acceptance and public launch are still pending. The prior provider-review window has expired; this update does not extend it.
+The separate China beta website now leads to invitation activation, a participant workspace and a document center. Terms, privacy, material permissions and applicable third-party service consent are recorded separately. Optional data-use permissions remain separate from participation. Beta execution now preserves original authorization and accumulated usage when resuming a task. One causal-diagnosis and limited-revision scenario passed a live replay on October 30. Broader participant and production acceptance remain pending. The document center is now 1.1-rc1; agreement signing and final release approval remain incomplete. The November 6 provider-review deadline is preserved and has expired.
 
 <img src="assets/beta-preview.png" alt="Complete local PaperCore China invited-beta homepage" width="1000" />
 
-*Full-page Google Chrome capture, October 28, 2026 (1600 × 4457). The preview contains no participant account or research data.*
+*Full-page Google Chrome capture, November 8, 2026 (1600 × 4457). The preview contains no participant account or research data.*
 
 ## Independent Chinese brand preview
 
@@ -82,7 +82,7 @@ An independent website explores **砚衡 · PaperCore 中国版** (Yanheng) and 
 
 <img src="assets/yanheng-preview.png" alt="Complete Yanheng Chinese brand website preview" width="1000" />
 
-*Full-page Google Chrome capture, October 28, 2026 (1600 × 4010), from an isolated local build.*
+*Full-page Google Chrome capture, November 8, 2026 (1600 × 4010), from an isolated local build.*
 
 ## Data and connected services
 
@@ -96,9 +96,10 @@ The Web toggle controls external paper search. It does **not** turn off cloud mo
 
 ## Development status
 
-**PaperCore 2.0 is an internal development preview.** The October 28 update brings together source-page reading, table/formula alignment, vision recovery, beta execution and reconciliation, participant-document templates and corrected model-research progress. Broader evaluation with independently annotated material remains in progress. Automated regression tests cover workflow behavior with fixtures and mocked services; they are not an overall accuracy measurement.
+**PaperCore 2.0 is an internal development preview.** The November 8 source update includes table/formula source verification, subject routing and interruption handling, material acquisition and review queues, beta causal-review fixes and 1.1-rc1 document templates. CoreLM research status is unchanged. Software regression tests check behavior; they do not establish scientific accuracy.
 
-Regional vision execution, broader real-paper evaluation, additional-provider handoff and production concurrency acceptance remain pending. Formula-specific verification and CNKI integration are not implemented. There is currently no public hosted demo or public installation package. A demo link will be added when one is available.
+Second-stage acceptance remains incomplete. Independent reviewers have not supplied a gold standard; OCR confirmation, missing attachments, visual-response validation and full formula semantics remain open. A bounded two-request concurrency check and a real provider handoff have been recorded, but do not establish production scalability or general reliability. Some old ConvNeXt run artifacts are missing. CNKI is not integrated. No public hosted demo or installation package is available.
+
 
 ## Project and feedback
 
